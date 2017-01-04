@@ -27,6 +27,7 @@ a:hover {
 }
 h2 {
   padding: 10px 0 10px 0;
+  text-align: center;
 }
 h3{
   margin: 15px 0 15px 0;
@@ -42,6 +43,7 @@ ol{
 
 .nav {
   padding-left: 0;
+  text-align: center;
 }
 hr {
   padding: 0;
@@ -62,4 +64,26 @@ hr {
 .recipes a {
   color: #7facaa;
   text-decoration: none;
+}
+
+body {
+  padding: 0 0 0 0;
+}
+
+.header{
+  padding: 10px 10px 10px 10px;
+  background-color: #b56663;
+}
+.header a{
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+.main-content{
+  width: 500px;
+  padding:20px 20px 20px 20px;
+  border:1px solid #dddddd;
+  margin: 30px auto 0 auto;
 }
