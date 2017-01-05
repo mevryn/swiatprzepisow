@@ -3,10 +3,12 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
   border: 0;
   margin: 0;
 }
+body{
+  background: #000000 url(../resources/background.jpg) top left repeat;
+}
 
 p {
-  text-decoration: underline;
-  color:#FF0000;
+    color:#FF0000;
 }
 
 ul {
@@ -57,6 +59,8 @@ hr {
   display: list-item;
   border: 1px solid #b56663;
   padding-left: 15px;
+  margin-bottom: 5px;
+  background: #ffffff url(../resources/li-bg.jpg) top left repeat;
 }
 .recipes h3 {
   border-bottom:0;
@@ -64,6 +68,17 @@ hr {
 .recipes a {
   color: #7facaa;
   text-decoration: none;
+}
+.recipes a:hover{
+  color: #007f00;
+  text-decoration: underline;
+}
+.recipes p{
+  margin-bottom: 5px;
+}
+.recipes img{
+  margin-bottom: 5px;
+  padding-right: 15px;
 }
 
 body {
@@ -77,13 +92,48 @@ body {
 .header a{
   color: #ffffff;
 }
+.header a:hover{
+  color:#0000FF;
+}
+.header img{
+display: block;
+margin: 0 auto 0 auto;
+}
+
 h1 {
   color: #ffffff;
   text-align: center;
+}
+.photo{
+  height: 120px;
+  width: 160px;
+  transform: rotate(90deg);
+  display: block;
+  margin-bottom: 15px;
+margin-left: auto;
+margin-right: autos
+}
+.featured-image{
+  width: 512px;
+  height: 288px;
+  background: #ffffff url(../resources/grillowany-kurczak.jpg) top left no-repeat;
+}
+.featured-image h3 {
+  margin: 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 0 5px 15px;
+  text-transform: uppercase;
 }
 .main-content{
   width: 500px;
   padding:20px 20px 20px 20px;
   border:1px solid #dddddd;
   margin: 30px auto 0 auto;
+  position: relative;
+  background: #ffffff url(../resources/main-content.jpg) top left repeat;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
 }
