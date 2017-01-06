@@ -2,6 +2,8 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
   padding: 0;
   border: 0;
   margin: 0;
+  font-size: 100%;
+  font: inherit;
 }
 body{
   background: #000000 url(../resources/background.jpg) top left repeat;
@@ -30,11 +32,14 @@ a:hover {
 h2 {
   padding: 10px 0 10px 0;
   text-align: center;
+  font-size: 26px;
+  font-weight: bold;
 }
 h3{
   margin: 15px 0 15px 0;
   border-bottom: 1px solid #CCCCCC;
   padding-bottom: 3px;
+  font-size: 22px;
 }
 ul{
   padding: 0 0 0 50px;
@@ -127,13 +132,51 @@ margin-right: autos
 }
 .main-content{
   width: 500px;
-  padding:20px 20px 20px 20px;
+  padding:20px 30px 20px 20px;
   border:1px solid #dddddd;
   margin: 30px auto 0 auto;
   position: relative;
   background: #ffffff url(../resources/main-content.jpg) top left repeat;
 }
-
+.main-content p {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 16px;
+}
 body{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial,"Times New Roman" ,sans-serif;
+}
+label, input{
+  display: block;
+}
+label{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+input{
+  margin-bottom: 25px;
+}
+input[type=submit]{
+  width: 120px;
+  font-size: 16px;
+}
+input[type=text]{
+  border:2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+  width: 500px;
+}
+input[type=checkbox]{
+  display:inline;
+}
+label[for=newsletter]{
+  display: inline;
+}
+textarea{
+  width: 500px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size:24px;
 }
